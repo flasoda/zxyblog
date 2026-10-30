@@ -1,0 +1,18 @@
+:root{color-scheme:light;--ink:#262b29;--muted:#737a74;--paper:#faf9f5;--rule:#dedfd6;--accent:#355b4c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Serif CJK SC","Songti SC",SimSun,serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-underline-offset:.23em;overflow-wrap:anywhere}
+a:hover{color:#192f25}
+.skip{position:absolute;left:18px;top:-60px;background:white;padding:10px;z-index:2}.skip:focus{top:8px}
+.site-header{max-width:920px;margin:auto;padding:34px 28px 24px;border-bottom:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;gap:24px;font-family:system-ui,"Microsoft YaHei",sans-serif}
+.site-name{font-size:20px;letter-spacing:.08em;text-decoration:none;color:var(--ink);font-weight:600}
+nav{display:flex;gap:24px;font-size:14px}nav a{text-decoration:none;color:var(--muted)}
+.reading{max-width:790px;min-height:62vh;margin:auto;padding:48px 28px 70px;font-size:18px;line-height:1.95;overflow-wrap:break-word}
+h1,h2,h3{font-family:system-ui,"Microsoft YaHei",sans-serif;line-height:1.45;font-weight:650;letter-spacing:.015em}
+h1{font-size:32px;margin:0 0 30px}h2{font-size:24px;margin:38px 0 18px}h3{font-size:20px;margin:30px 0 14px}
+p{margin:0 0 22px}ul,ol{padding-left:1.5em}li{margin-bottom:12px}
+blockquote{margin:26px 0;padding-left:20px;border-left:3px solid var(--rule);color:#505b53}
+img{max-width:100%;height:auto}table{border-collapse:collapse;width:100%;font-size:16px;margin:24px 0}td,th{border-bottom:1px solid var(--rule);text-align:left;padding:12px 10px}
+.article-list{list-style:none;padding:0;margin:26px 0}.article-list li{padding:24px 0;border-bottom:1px solid var(--rule)}.article-list a{font-size:21px;text-decoration:none}.article-list p{font-size:15px;color:var(--muted);margin:8px 0 0}
+.site-footer{max-width:920px;margin:auto;padding:22px 28px 34px;border-top:1px solid var(--rule);color:var(--muted);font:13px/1.7 system-ui,"Microsoft YaHei",sans-serif;display:flex;justify-content:space-between;gap:16px}
+@media(max-width:600px){.site-header{padding:24px 20px 20px}.reading{padding:34px 20px 50px;font-size:17px;line-height:1.9}h1{font-size:27px}h2{font-size:22px}nav{gap:18px}.site-footer{padding:20px;display:block}.site-footer span{display:block;margin-top:5px}}

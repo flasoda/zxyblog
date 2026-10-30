@@ -1,0 +1,26 @@
+title: ZXY 札记
+description: 山野见闻与日常记录
+lang: zh-CN
+url: https://flasoda.github.io
+baseurl: /zxyblog
+encoding: UTF-8
+markdown: kramdown
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-optional-front-matter
+collections:
+  articles:
+    output: true
+    permalink: /articles/:name/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - tools
+  - templates
+  - requirements-site.txt
+  - files/README.md
+  - .gitignore
