@@ -1,0 +1,2 @@
+# Preserve original attachment bytes, including text-file line endings.
+files/** -text
